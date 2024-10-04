@@ -7,7 +7,7 @@ def normalize_phone(phone_number):
     Parameters:
     phone_number(str)
     Returns:
-    list(str)
+    list(str) - with phone numbers 
     '''
 
     cut_number =  re.sub(r'[^0-9+]', '', phone_number)
